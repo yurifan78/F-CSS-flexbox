@@ -149,6 +149,11 @@ ul {
 
 .view-details {
   font-size: 14px;
+  color: cornflowerblue;
+}
+
+.article-2-title {
+  height: 150px;
 }
 
 .sign-in-container {
