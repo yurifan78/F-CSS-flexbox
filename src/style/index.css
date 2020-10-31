@@ -71,7 +71,7 @@ ul {
   display: flex;
   flex-direction: column;
   padding: 30px 20px;
-  border-radius: 2px;
+  border-radius: 1px;
 }
 
 .about {
@@ -98,8 +98,7 @@ ul {
   height: 700px;
 }
 
-.article-1,
-.article-3 {
+.article {
   border: 2px solid whitesmoke;
   width: 45%;
   height: 300px;
@@ -110,13 +109,8 @@ ul {
 }
 
 .article-2 {
-  border: 2px solid whitesmoke;
-  width: 45%;
   height: 500px;
   margin-left: 15px;
-  display: flex;
-  flex-direction: column;
-  border-radius: 1px;
 }
 
 .article-title {
