@@ -104,6 +104,8 @@ ul {
   width: 45%;
   height: 300px;
   margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 .article-2 {
@@ -111,6 +113,36 @@ ul {
   width: 45%;
   height: 500px;
   margin-left: 15px;
+}
+
+.article-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: dimgray;
+  color: white;
+  font-weight: bold;
+}
+
+.article-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 15px;
+}
+
+.article-subtitle {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.article-content {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.view-details {
+  margin-top: 40px;
 }
 
 .sign-in-container {
