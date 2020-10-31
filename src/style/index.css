@@ -100,34 +100,40 @@ ul {
 
 .article-1,
 .article-3 {
-  border: 1px solid black;
+  border: 2px solid whitesmoke;
   width: 45%;
   height: 300px;
   margin-bottom: 15px;
   display: flex;
   flex-direction: column;
+  border-radius: 1px;
 }
 
 .article-2 {
-  border: 1px solid black;
+  border: 2px solid whitesmoke;
   width: 45%;
   height: 500px;
   margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1px;
 }
 
 .article-title {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100px;
+  height: 200px;
   background-color: dimgray;
   color: white;
   font-weight: bold;
 }
 
 .article-container {
+  height: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   padding: 20px 15px;
 }
 
@@ -142,7 +148,7 @@ ul {
 }
 
 .view-details {
-  margin-top: 40px;
+  font-size: 14px;
 }
 
 .sign-in-container {
